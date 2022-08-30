@@ -2,6 +2,7 @@
 title: "Research"
 editor: visual
 echo: false
+section-divs: false
 ---
 
 ## Journal publications
@@ -10,13 +11,30 @@ echo: false
 
 refs <- bibtex::read.bib("references.bib")
 
+button <- function(url, str) {
+  glue::glue(
+    '<div><a class="btn btn-primary btn-sm" href="{url}" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-link-45deg" role="img" aria-label="{str}"></i>
+        {str}
+    </a></div>'
+  )
+}
+
+    
+#aut* (year). "title", journal, link    
+
+apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
+    #extraInfo = function(paper) paste0('<a href="', paper$url, '">', paper$doi, '</a>'),
+    extraInfo = function(paper) button(paper$url, paper$doi),
+    .init = TRUE)
+
 
 years <- as.integer(unique(refs$year)) |> 
   sort(decreasing = TRUE)
 
 for(y in years) {
   print(glue::glue("### {y} {{#published-{y}}}"))
-  print(refs[refs$year == y], style = "html")
+  print(refs[refs$year == y])
   cat("<hr />")
 }
 
