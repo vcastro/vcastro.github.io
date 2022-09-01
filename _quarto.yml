@@ -9,6 +9,8 @@ website:
         href: research.qmd
       - text: Blog
         href: blog.qmd
+      - icon: github
+        href: https://github.com/vcastro
 
 format:
   html:

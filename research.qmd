@@ -11,6 +11,10 @@ section-divs: false
 
 refs <- bibtex::read.bib("references.bib")
 
+
+#refs$year |> unlist() |> table() |> barplot()
+
+
 button <- function(url, str) {
   glue::glue(
     '<div><a class="btn btn-primary btn-sm" href="{url}" target="_blank" rel="noopener noreferrer">
@@ -20,12 +24,11 @@ button <- function(url, str) {
   )
 }
 
-    
-#aut* (year). "title", journal, link    
+ 
 
 apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
-    #extraInfo = function(paper) paste0('<a href="', paper$url, '">', paper$doi, '</a>'),
-    extraInfo = function(paper) button(paper$url, paper$doi),
+    extraInfo = function(paper) paste0('<a href="', paper$url, '">', paper$doi, '</a>'),
+    #extraInfo = function(paper) button(paper$url, paper$doi),
     .init = TRUE)
 
 
