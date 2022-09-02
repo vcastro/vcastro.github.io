@@ -9,9 +9,11 @@ section-divs: false
 
 ```{r refs, results='asis'}
 
-refs <- bibtex::read.bib("references.bib")
+references_file <- "references.bib"
 
+refs <- bibtex::read.bib(references_file)
 
+cat(glue::glue("<small>*References last updated on {file.info(references_file)$mtime}*</small><p />"))
 #refs$year |> unlist() |> table() |> barplot()
 
 
@@ -26,7 +28,7 @@ button <- function(url, str) {
 
  
 
-apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
+apa_style <- tools::bibstyle("apa",
     extraInfo = function(paper) paste0('<a href="', paper$url, '">', paper$doi, '</a>'),
     #extraInfo = function(paper) button(paper$url, paper$doi),
     .init = TRUE)
@@ -34,6 +36,7 @@ apa_style <- tools::bibstyle("apa", sortKeys = function(refs) seq_along(refs),
 
 years <- as.integer(unique(refs$year)) |> 
   sort(decreasing = TRUE)
+
 
 for(y in years) {
   print(glue::glue("### {y} {{#published-{y}}}"))
