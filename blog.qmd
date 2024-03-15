@@ -1,5 +1,3 @@
 ---
-listing:
-  contents: posts
-  type: default
+title: Blog
 ---
