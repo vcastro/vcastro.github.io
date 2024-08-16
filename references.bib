@@ -5336,3 +5336,66 @@
   issn     = "2158-3188",
   language = "en"
 }
+
+@ARTICLE{Nogues2024-fy,
+  title     = "Semi-supervised Double Deep Learning Temporal Risk Prediction
+               ({SeDDLeR}) with Electronic Health Records",
+  author    = "Nogues, Isabelle-Emmanuella and Wen, Jun and Zhao, Yihan and
+               Bonzel, Clara-Lea and Castro, Victor M and Lin, Yucong and Xu,
+               Shike and Hou, Jue and Cai, Tianxi",
+  journal   = "J. Biomed. Inform.",
+  publisher = "Elsevier BV",
+  volume    =  157,
+  number    =  104685,
+  pages     =  104685,
+  abstract  = "BACKGROUND: Risk prediction plays a crucial role in planning for
+               prevention, monitoring, and treatment. Electronic Health Records
+               (EHRs) offer an expansive repository of temporal medical data
+               encompassing both risk factors and outcome indicators essential
+               for effective risk prediction. However, challenges emerge due to
+               the lack of readily available gold-standard outcomes and the
+               complex effects of various risk factors. Compounding these
+               challenges are the false positives in diagnosis codes, and
+               formidable task of pinpointing the onset timing in annotations.
+               OBJECTIVE: We develop a Semi-supervised Double Deep Learning
+               Temporal Risk Prediction (SeDDLeR) algorithm based on extensive
+               unlabeled longitudinal Electronic Health Records (EHR) data
+               augmented by a limited set of gold standard labels on the binary
+               status information indicating whether the clinical event of
+               interest occurred during the follow-up period. METHODS: The
+               SeDDLeR algorithm calculates an individualized risk of developing
+               future clinical events over time using each patient's baseline
+               EHR features via the following steps: (1) construction of an
+               initial EHR-derived surrogate as a proxy for the onset status;
+               (2) deep learning calibration of the surrogate along
+               gold-standard onset status; and (3) semi-supervised deep learning
+               for risk prediction combining calibrated surrogates and
+               gold-standard onset status. To account for missing onset time and
+               heterogeneous follow-up, we introduce temporal kernel weighting.
+               We devise a Gated Recurrent Units (GRUs) module to capture
+               temporal characteristics. We subsequently assess our proposed
+               SeDDLeR method in simulation studies and apply the method to the
+               Massachusetts General Brigham (MGB) Biobank to predict type 2
+               diabetes (T2D) risk. RESULTS: SeDDLeR outperforms benchmark risk
+               prediction methods, including Semi-parametric Transformation
+               Model (STM) and DeepHit, with consistently best accuracy across
+               experiments. SeDDLeR achieved the best C-statistics ( 0.815, SE
+               0.023; vs STM +.084, SE 0.030, P-value .004; vs DeepHit +.055, SE
+               0.027, P-value .024) and best average time-specific AUC (0.778,
+               SE 0.022; vs STM + 0.059, SE 0.039, P-value .067; vs DeepHit +
+               0.168, SE 0.032, P-value <0.001) in the MGB T2D study.
+               CONCLUSION: SeDDLeR can train robust risk prediction models in
+               both real-world EHR and synthetic datasets with minimal
+               requirements of labeling event times. It holds the potential to
+               be incorporated for future clinical trial recruitment or clinical
+               decision-making.",
+  month     =  jul,
+  year      =  2024,
+  url       = "http://dx.doi.org/10.1016/j.jbi.2024.104685",
+  keywords  = "Current status data; Electronic health records; Incidence
+               phenotyping; Risk prediction; Semi-supervised learning",
+  doi       = "10.1016/j.jbi.2024.104685",
+  pmid      =  39004109,
+  issn      = "1532-0464,1532-0480",
+  language  = "en"
+}
