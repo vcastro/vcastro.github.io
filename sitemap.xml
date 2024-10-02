@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://vcastro.github.io/blog.html</loc>
+    <lastmod>2024-10-02T21:16:50.232Z</lastmod>
+  </url>
+  <url>
     <loc>https://vcastro.github.io/index.html</loc>
-    <lastmod>2024-08-16T15:36:11.423Z</lastmod>
+    <lastmod>2024-10-02T21:16:50.232Z</lastmod>
   </url>
   <url>
     <loc>https://vcastro.github.io/research.html</loc>
-    <lastmod>2024-08-16T15:36:11.427Z</lastmod>
-  </url>
-  <url>
-    <loc>https://vcastro.github.io/blog.html</loc>
-    <lastmod>2024-08-16T15:36:11.423Z</lastmod>
+    <lastmod>2024-10-02T21:16:50.236Z</lastmod>
   </url>
 </urlset>
