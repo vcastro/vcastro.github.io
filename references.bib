@@ -2894,51 +2894,6 @@
   language = "en"
 }
 
-@ARTICLE{Castro2021-ec,
-  title    = "Development and External Validation of a Delirium Prediction Model
-              for Hospitalized Patients With Coronavirus Disease 2019",
-  author   = "Castro, Victor M and Sacks, Chana A and Perlis, Roy H and McCoy,
-              Thomas H",
-  journal  = "J Acad Consult Liaison Psychiatry",
-  abstract = "Background: The coronavirus disease 2019 pandemic has placed
-              unprecedented stress on health systems and has been associated
-              with elevated risk for delirium. The convergence of pandemic
-              resource limitation and clinical demand associated with delirium
-              requires careful risk stratification for targeted prevention
-              efforts. Objectives: To develop an incident delirium predictive
-              model among coronavirus disease 2019 patients. Methods: We applied
-              supervised machine learning to electronic health records data
-              available at the start coronavirus disease 2019 inpatients
-              admissions at three hospitals to build an incident delirium
-              predictive model. We validated this model in three different
-              hospitals. Both hospital cohorts included academic and community
-              settings. Results: Among 2907 patients across 6 hospitals, 488
-              (16.8\%) developed delirium. Applying the predictive model in the
-              external validation cohort of 755 patients, the c-index was 0.75
-              (0.71-0.79) and the lift in the top quintile was 2.1. At a
-              sensitivity of 80\%, the specificity was 56\%, negative predictive
-              value 92\%, and positive predictive value 30\%. Equivalent model
-              performance was observed in subsamples stratified by age, sex,
-              race, need for critical care and care at community vs. academic
-              hospitals. Conclusion: Machine learning applied to electronic
-              health records available at the time of inpatient admission can be
-              used to risk-stratify patients with coronavirus disease 2019 for
-              incident delirium. Delirium is common among patients with
-              coronavirus disease 2019, and resource constraints during a
-              pandemic demand careful attention to the optimal application of
-              predictive models.",
-  month    =  mar,
-  year     =  2021,
-  url      = "http://dx.doi.org/10.1016/j.jaclp.2020.12.005",
-  keywords = "COVID-19; cohort study; crisis standard of care; delirium;
-              electronic health records; machine learning; predictive modeling",
-  doi      = "10.1016/j.jaclp.2020.12.005",
-  pmc      = "PMC7933786",
-  pmid     =  33688635,
-  issn     = "2667-2960",
-  language = "en"
-}
-
 @ARTICLE{Castro2020-fs,
   title    = "Laboratory Findings Associated With Severe Illness and Mortality
               Among Hospitalized Individuals With Coronavirus Disease 2019 in
@@ -3075,77 +3030,61 @@
   language  = "en"
 }
 
-@ARTICLE{Hong2021-zp,
-  title     = "Clinical Knowledge Extraction via Sparse Embedding Regression
-               ({KESER}) with Multi-Center Large Scale Electronic Health Record
-               Data",
-  author    = "Hong, Chuan and Rush, Everett and Liu, Molei and Zhou, Doudou and
-               Sun, Jiehuan and Sonabend, Aaron and Castro, Victor M and
-               Schubert, Petra and Panickan, Vidul A and Cai, Tianrun and
-               {Others}",
-  journal   = "medRxiv",
-  publisher = "Cold Spring Harbor Laboratory Press",
-  abstract  = "… 9Brigham and Women's Hospital, Boston, MA , USA; *Liao and Cai
-               contributed equally … progression (eg D-dimer, CRP, Ferritin) and
-               medications for managing COVID patients (eg … Mass General
-               Brigham (MGB), formerly Partners Healthcare, is a Boston-based
-               non-profit …",
-  year      =  2021,
-  url       = "https://www.medrxiv.org/content/10.1101/2021.03.13.21253486v1.abstract"
-}
-
 @ARTICLE{Ahuja2020-wi,
-  title    = "{sureLDA}: A multidisease automated phenotyping method for the
-              electronic health record",
-  author   = "Ahuja, Yuri and Zhou, Doudou and He, Zeling and Sun, Jiehuan and
-              Castro, Victor M and Gainer, Vivian and Murphy, Shawn N and Hong,
-              Chuan and Cai, Tianxi",
-  journal  = "J. Am. Med. Inform. Assoc.",
-  volume   =  27,
-  number   =  8,
-  pages    = "1235--1243",
-  abstract = "OBJECTIVE: A major bottleneck hindering utilization of electronic
-              health record data for translational research is the lack of
-              precise phenotype labels. Chart review as well as rule-based and
-              supervised phenotyping approaches require laborious expert input,
-              hampering applicability to studies that require many phenotypes to
-              be defined and labeled de novo. Though International
-              Classification of Diseases codes are often used as surrogates for
-              true labels in this setting, these sometimes suffer from poor
-              specificity. We propose a fully automated topic modeling algorithm
-              to simultaneously annotate multiple phenotypes. MATERIALS AND
-              METHODS: Surrogate-guided ensemble latent Dirichlet allocation
-              (sureLDA) is a label-free multidimensional phenotyping method. It
-              first uses the PheNorm algorithm to initialize probabilities based
-              on 2 surrogate features for each target phenotype, and then
-              leverages these probabilities to constrain the LDA topic model to
-              generate phenotype-specific topics. Finally, it combines
-              phenotype-feature counts with surrogates via clustering ensemble
-              to yield final phenotype probabilities. RESULTS: sureLDA achieves
-              reliably high accuracy and precision across a range of simulated
-              and real-world phenotypes. Its performance is robust to phenotype
-              prevalence and relative informativeness of surogate vs
-              nonsurrogate features. It also exhibits powerful feature selection
-              properties. DISCUSSION: sureLDA combines attractive properties of
-              PheNorm and LDA to achieve high accuracy and precision robust to
-              diverse phenotype characteristics. It offers particular
-              improvement for phenotypes insufficiently captured by a few
-              surrogate features. Moreover, sureLDA's feature selection ability
-              enables it to handle high feature dimensions and produce
-              interpretable computational phenotypes. CONCLUSIONS: sureLDA is
-              well suited toward large-scale electronic health record
-              phenotyping for highly multiphenotype applications such as
-              phenome-wide association studies .",
-  month    =  aug,
-  year     =  2020,
-  url      = "http://dx.doi.org/10.1093/jamia/ocaa079",
-  keywords = "electronic health records; high-throughput phenotyping; phenotypic
-              big data; precision medicine; topic modeling applications",
-  doi      = "10.1093/jamia/ocaa079",
-  pmc      = "PMC7481024",
-  pmid     =  32548637,
-  issn     = "1067-5027,1527-974X",
-  language = "en"
+  title     = "{sureLDA}: A multidisease automated phenotyping method for the
+               electronic health record",
+  author    = "Ahuja, Yuri and Zhou, Doudou and He, Zeling and Sun, Jiehuan and
+               Castro, Victor M and Gainer, Vivian and Murphy, Shawn N and Hong,
+               Chuan and Cai, Tianxi",
+  journal   = "J. Am. Med. Inform. Assoc.",
+  publisher = "biorxiv.org",
+  volume    =  27,
+  number    =  8,
+  pages     = "1235--1243",
+  abstract  = "OBJECTIVE: A major bottleneck hindering utilization of electronic
+               health record data for translational research is the lack of
+               precise phenotype labels. Chart review as well as rule-based and
+               supervised phenotyping approaches require laborious expert input,
+               hampering applicability to studies that require many phenotypes
+               to be defined and labeled de novo. Though International
+               Classification of Diseases codes are often used as surrogates for
+               true labels in this setting, these sometimes suffer from poor
+               specificity. We propose a fully automated topic modeling
+               algorithm to simultaneously annotate multiple phenotypes.
+               MATERIALS AND METHODS: Surrogate-guided ensemble latent Dirichlet
+               allocation (sureLDA) is a label-free multidimensional phenotyping
+               method. It first uses the PheNorm algorithm to initialize
+               probabilities based on 2 surrogate features for each target
+               phenotype, and then leverages these probabilities to constrain
+               the LDA topic model to generate phenotype-specific topics.
+               Finally, it combines phenotype-feature counts with surrogates via
+               clustering ensemble to yield final phenotype probabilities.
+               RESULTS: sureLDA achieves reliably high accuracy and precision
+               across a range of simulated and real-world phenotypes. Its
+               performance is robust to phenotype prevalence and relative
+               informativeness of surogate vs nonsurrogate features. It also
+               exhibits powerful feature selection properties. DISCUSSION:
+               sureLDA combines attractive properties of PheNorm and LDA to
+               achieve high accuracy and precision robust to diverse phenotype
+               characteristics. It offers particular improvement for phenotypes
+               insufficiently captured by a few surrogate features. Moreover,
+               sureLDA's feature selection ability enables it to handle high
+               feature dimensions and produce interpretable computational
+               phenotypes. CONCLUSIONS: sureLDA is well suited toward
+               large-scale electronic health record phenotyping for highly
+               multiphenotype applications such as phenome-wide association
+               studies .",
+  month     =  aug,
+  year      =  2020,
+  url       = "http://dx.doi.org/10.1093/jamia/ocaa079",
+  keywords  = "electronic health records; high-throughput phenotyping;
+               phenotypic big data; precision medicine; topic modeling
+               applications",
+  doi       = "10.1093/jamia/ocaa079",
+  pmc       = "PMC7481024",
+  pmid      =  32548637,
+  issn      = "1067-5027,1527-974X",
+  language  = "en"
 }
 
 @ARTICLE{Zhang2021-fg,
@@ -3639,6 +3578,53 @@
   language  = "en"
 }
 
+@ARTICLE{Castro2021-lg,
+  title    = "Development and External Validation of a Delirium Prediction Model
+              for Hospitalized Patients With Coronavirus Disease 2019",
+  author   = "Castro, Victor M and Sacks, Chana A and Perlis, Roy H and McCoy,
+              Thomas H",
+  journal  = "J Acad Consult Liaison Psychiatry",
+  volume   =  62,
+  number   =  3,
+  pages    = "298--308",
+  abstract = "Background: The coronavirus disease 2019 pandemic has placed
+              unprecedented stress on health systems and has been associated
+              with elevated risk for delirium. The convergence of pandemic
+              resource limitation and clinical demand associated with delirium
+              requires careful risk stratification for targeted prevention
+              efforts. Objectives: To develop an incident delirium predictive
+              model among coronavirus disease 2019 patients. Methods: We applied
+              supervised machine learning to electronic health record data for
+              inpatients with coronavirus disease 2019 at three hospitals to
+              build an incident delirium diagnosis prediction model. We
+              validated this model in three different hospitals. Both hospital
+              cohorts included academic and community settings. Results: Among
+              2907 patients across 6 hospitals, 488 (16.8\%) developed delirium.
+              Applying the predictive model in the external validation cohort of
+              755 patients, the c-index was 0.75 (0.71-0.79) and the lift in the
+              top quintile was 2.1. At a sensitivity of 80\%, the specificity
+              was 56\%, negative predictive value 92\%, and positive predictive
+              value 30\%. Equivalent model performance was observed in
+              subsamples stratified by age, sex, race, need for critical care
+              and care at community vs. academic hospitals. Conclusion: Machine
+              learning applied to electronic health records available at the
+              time of inpatient admission can be used to risk-stratify patients
+              with coronavirus disease 2019 for incident delirium. Delirium is
+              common among patients with coronavirus disease 2019, and resource
+              constraints during a pandemic demand careful attention to the
+              optimal application of predictive models.",
+  month    =  mar,
+  year     =  2021,
+  url      = "http://dx.doi.org/10.1016/j.jaclp.2020.12.005",
+  keywords = "COVID-19; cohort study; crisis standard of care; delirium;
+              electronic health records; machine learning; predictive modeling",
+  doi      = "10.1016/j.jaclp.2020.12.005",
+  pmc      = "PMC7933786",
+  pmid     =  33688635,
+  issn     = "2667-2960",
+  language = "en"
+}
+
 @ARTICLE{Zhang2021-ux,
   title    = "Geometric Features Associated with Middle Cerebral Artery
               Bifurcation Aneurysm Formation: A Matched Case-Control Study",
@@ -3792,56 +3778,59 @@
 }
 
 @ARTICLE{Hong2021-rt,
-  title    = "Clinical knowledge extraction via sparse embedding regression
-              ({KESER}) with multi-center large scale electronic health record
-              data",
-  author   = "Hong, Chuan and Rush, Everett and Liu, Molei and Zhou, Doudou and
-              Sun, Jiehuan and Sonabend, Aaron and Castro, Victor M and
-              Schubert, Petra and Panickan, Vidul A and Cai, Tianrun and Costa,
-              Lauren and He, Zeling and Link, Nicholas and Hauser, Ronald and
-              Gaziano, J Michael and Murphy, Shawn N and Ostrouchov, George and
-              Ho, Yuk-Lam and Begoli, Edmon and Lu, Junwei and Cho, Kelly and
-              Liao, Katherine P and Cai, Tianxi and {VA Million Veteran Program}",
-  journal  = "NPJ Digit Med",
-  volume   =  4,
-  number   =  1,
-  pages    =  151,
-  abstract = "The increasing availability of electronic health record (EHR)
-              systems has created enormous potential for translational research.
-              However, it is difficult to know all the relevant codes related to
-              a phenotype due to the large number of codes available.
-              Traditional data mining approaches often require the use of
-              patient-level data, which hinders the ability to share data across
-              institutions. In this project, we demonstrate that multi-center
-              large-scale code embeddings can be used to efficiently identify
-              relevant features related to a disease of interest. We constructed
-              large-scale code embeddings for a wide range of codified concepts
-              from EHRs from two large medical centers. We developed knowledge
-              extraction via sparse embedding regression (KESER) for feature
-              selection and integrative network analysis. We evaluated the
-              quality of the code embeddings and assessed the performance of
-              KESER in feature selection for eight diseases. Besides, we
-              developed an integrated clinical knowledge map combining embedding
-              data from both institutions. The features selected by KESER were
-              comprehensive compared to lists of codified data generated by
-              domain experts. Features identified via KESER resulted in
-              comparable performance to those built upon features selected
-              manually or with patient-level data. The knowledge map created
-              using an integrative analysis identified disease-disease and
-              disease-drug pairs more accurately compared to those identified
-              using single institution data. Analysis of code embeddings via
-              KESER can effectively reveal clinical knowledge and infer
-              relatedness among codified concepts. KESER bypasses the need for
-              patient-level data in individual analyses providing a significant
-              advance in enabling multi-center studies using EHR data.",
-  month    =  oct,
-  year     =  2021,
-  url      = "http://dx.doi.org/10.1038/s41746-021-00519-z",
-  doi      = "10.1038/s41746-021-00519-z",
-  pmc      = "PMC8551205",
-  pmid     =  34707226,
-  issn     = "2398-6352",
-  language = "en"
+  title     = "Clinical knowledge extraction via sparse embedding regression
+               ({KESER}) with multi-center large scale electronic health record
+               data",
+  author    = "Hong, Chuan and Rush, Everett and Liu, Molei and Zhou, Doudou and
+               Sun, Jiehuan and Sonabend, Aaron and Castro, Victor M and
+               Schubert, Petra and Panickan, Vidul A and Cai, Tianrun and Costa,
+               Lauren and He, Zeling and Link, Nicholas and Hauser, Ronald and
+               Gaziano, J Michael and Murphy, Shawn N and Ostrouchov, George and
+               Ho, Yuk-Lam and Begoli, Edmon and Lu, Junwei and Cho, Kelly and
+               Liao, Katherine P and Cai, Tianxi and {VA Million Veteran
+               Program}",
+  journal   = "NPJ Digit Med",
+  publisher = "Cold Spring Harbor Laboratory Press",
+  volume    =  4,
+  number    =  1,
+  pages     =  151,
+  abstract  = "The increasing availability of electronic health record (EHR)
+               systems has created enormous potential for translational
+               research. However, it is difficult to know all the relevant codes
+               related to a phenotype due to the large number of codes
+               available. Traditional data mining approaches often require the
+               use of patient-level data, which hinders the ability to share
+               data across institutions. In this project, we demonstrate that
+               multi-center large-scale code embeddings can be used to
+               efficiently identify relevant features related to a disease of
+               interest. We constructed large-scale code embeddings for a wide
+               range of codified concepts from EHRs from two large medical
+               centers. We developed knowledge extraction via sparse embedding
+               regression (KESER) for feature selection and integrative network
+               analysis. We evaluated the quality of the code embeddings and
+               assessed the performance of KESER in feature selection for eight
+               diseases. Besides, we developed an integrated clinical knowledge
+               map combining embedding data from both institutions. The features
+               selected by KESER were comprehensive compared to lists of
+               codified data generated by domain experts. Features identified
+               via KESER resulted in comparable performance to those built upon
+               features selected manually or with patient-level data. The
+               knowledge map created using an integrative analysis identified
+               disease-disease and disease-drug pairs more accurately compared
+               to those identified using single institution data. Analysis of
+               code embeddings via KESER can effectively reveal clinical
+               knowledge and infer relatedness among codified concepts. KESER
+               bypasses the need for patient-level data in individual analyses
+               providing a significant advance in enabling multi-center studies
+               using EHR data.",
+  month     =  oct,
+  year      =  2021,
+  url       = "http://dx.doi.org/10.1038/s41746-021-00519-z",
+  doi       = "10.1038/s41746-021-00519-z",
+  pmc       = "PMC8551205",
+  pmid      =  34707226,
+  issn      = "2398-6352",
+  language  = "en"
 }
 
 @ARTICLE{Venkatesh2017-ps,
@@ -4275,6 +4264,8 @@
   month     =  jun,
   year      =  2021,
   url       = "http://dx.doi.org/10.1176/appi.ajp.2020.20060842",
+  keywords  = "Bipolar and Related Disorders; Coronavirus/COVID-19; Depressive
+               Disorders",
   doi       = "10.1176/appi.ajp.2020.20060842",
   pmid      =  33820425,
   issn      = "0002-953X,1535-7228",
@@ -4960,80 +4951,6 @@
   language = "en"
 }
 
-@ARTICLE{Kessler2023-cz,
-  title     = "Evaluation of a model to target high-risk psychiatric inpatients
-               for an intensive postdischarge suicide prevention intervention",
-  author    = "Kessler, Ronald C and Bauer, Mark S and Bishop, Todd M and
-               Bossarte, Robert M and Castro, Victor M and Demler, Olga V and
-               Gildea, Sarah M and Goulet, Joseph L and King, Andrew J and
-               Kennedy, Chris J and Landes, Sara J and Liu, Howard and Luedtke,
-               Alex and Mair, Patrick and Marx, Brian P and Nock, Matthew K and
-               Petukhova, Maria V and Pigeon, Wilfred R and Sampson, Nancy A and
-               Smoller, Jordan W and Miller, Aletha and Haas, Gretchen and
-               Benware, Jeffrey and Bradley, John and Owen, Richard R and House,
-               Samuel and Urosevic, Snezana and Weinstock, Lauren M",
-  journal   = "JAMA Psychiatry",
-  publisher = "American Medical Association (AMA)",
-  abstract  = "Importance: The months after psychiatric hospital discharge are a
-               time of high risk for suicide. Intensive postdischarge case
-               management, although potentially effective in suicide prevention,
-               is likely to be cost-effective only if targeted at high-risk
-               patients. A previously developed machine learning (ML) model
-               showed that postdischarge suicides can be predicted from
-               electronic health records and geospatial data, but it is unknown
-               if prediction could be improved by adding additional information.
-               Objective: To determine whether model prediction could be
-               improved by adding information extracted from clinical notes and
-               public records. Design, Setting, and Participants: Models were
-               trained to predict suicides in the 12 months after Veterans
-               Health Administration (VHA) short-term (less than 365 days)
-               psychiatric hospitalizations between the beginning of 2010 and
-               September 1, 2012 (299 050 hospitalizations, with 916
-               hospitalizations followed within 12 months by suicides) and
-               tested in the hospitalizations from September 2, 2012, to
-               December 31, 2013 (149 738 hospitalizations, with 393
-               hospitalizations followed within 12 months by suicides).
-               Validation focused on net benefit across a range of plausible
-               decision thresholds. Predictor importance was assessed with
-               Shapley additive explanations (SHAP) values. Data were analyzed
-               from January to August 2022. Main Outcomes and Measures: Suicides
-               were defined by the National Death Index. Base model predictors
-               included VHA electronic health records and patient residential
-               data. The expanded predictors came from natural language
-               processing (NLP) of clinical notes and a social determinants of
-               health (SDOH) public records database. Results: The model
-               included 448 788 unique hospitalizations. Net benefit over risk
-               horizons between 3 and 12 months was generally highest for the
-               model that included both NLP and SDOH predictors (area under the
-               receiver operating characteristic curve range, 0.747-0.780; area
-               under the precision recall curve relative to the suicide rate
-               range, 3.87-5.75). NLP and SDOH predictors also had the highest
-               predictor class-level SHAP values (proportional SHAP = 64.0\% and
-               49.3\%, respectively), although the single highest positive
-               variable-level SHAP value was for a count of medications
-               classified by the US Food and Drug Administration as increasing
-               suicide risk prescribed the year before hospitalization
-               (proportional SHAP = 15.0\%). Conclusions and Relevance: In this
-               study, clinical notes and public records were found to improve ML
-               model prediction of suicide after psychiatric hospitalization.
-               The model had positive net benefit over 3-month to 12-month risk
-               horizons for plausible decision thresholds. Although caution is
-               needed in inferring causality based on predictor importance,
-               several key predictors have potential intervention implications
-               that should be investigated in future studies.",
-  month     =  jan,
-  year      =  2023,
-  url       = "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2800171",
-  keywords  = "veterans; suicide; suicide risk assessment; suicide precautions;
-               prognostic study; social determinants of health; machine
-               learning; psychiatric hospital; natural language processing;
-               hospitalization, psychiatric; suicidal behavior; psychiatry",
-  doi       = "10.1001/jamapsychiatry.2022.4634",
-  pmid      =  36652267,
-  issn      = "2168-622X,2168-6238",
-  language  = "en"
-}
-
 @ARTICLE{Barak-Corren2023-iu,
   title    = "Improving risk prediction for target subpopulations: Predicting
               suicidal behaviors among multiple sclerosis patients",
@@ -5076,75 +4993,81 @@
 }
 
 @ARTICLE{Kessler2023-vo,
-  title    = "Evaluation of a Model to Target High-risk Psychiatric Inpatients
-              for an Intensive Postdischarge Suicide Prevention Intervention",
-  author   = "Kessler, Ronald C and Bauer, Mark S and Bishop, Todd M and
-              Bossarte, Robert M and Castro, Victor M and Demler, Olga V and
-              Gildea, Sarah M and Goulet, Joseph L and King, Andrew J and
-              Kennedy, Chris J and Landes, Sara J and Liu, Howard and Luedtke,
-              Alex and Mair, Patrick and Marx, Brian P and Nock, Matthew K and
-              Petukhova, Maria V and Pigeon, Wilfred R and Sampson, Nancy A and
-              Smoller, Jordan W and Miller, Aletha and Haas, Gretchen and
-              Benware, Jeffrey and Bradley, John and Owen, Richard R and House,
-              Samuel and Urosevic, Snezana and Weinstock, Lauren M",
-  journal  = "JAMA Psychiatry",
-  volume   =  80,
-  number   =  3,
-  pages    = "230--240",
-  abstract = "IMPORTANCE: The months after psychiatric hospital discharge are a
-              time of high risk for suicide. Intensive postdischarge case
-              management, although potentially effective in suicide prevention,
-              is likely to be cost-effective only if targeted at high-risk
-              patients. A previously developed machine learning (ML) model
-              showed that postdischarge suicides can be predicted from
-              electronic health records and geospatial data, but it is unknown
-              if prediction could be improved by adding additional information.
-              OBJECTIVE: To determine whether model prediction could be improved
-              by adding information extracted from clinical notes and public
-              records. DESIGN, SETTING, AND PARTICIPANTS: Models were trained to
-              predict suicides in the 12 months after Veterans Health
-              Administration (VHA) short-term (less than 365 days) psychiatric
-              hospitalizations between the beginning of 2010 and September 1,
-              2012 (299 050 hospitalizations, with 916 hospitalizations followed
-              within 12 months by suicides) and tested in the hospitalizations
-              from September 2, 2012, to December 31, 2013 (149 738
-              hospitalizations, with 393 hospitalizations followed within 12
-              months by suicides). Validation focused on net benefit across a
-              range of plausible decision thresholds. Predictor importance was
-              assessed with Shapley additive explanations (SHAP) values. Data
-              were analyzed from January to August 2022. MAIN OUTCOMES AND
-              MEASURES: Suicides were defined by the National Death Index. Base
-              model predictors included VHA electronic health records and
-              patient residential data. The expanded predictors came from
-              natural language processing (NLP) of clinical notes and a social
-              determinants of health (SDOH) public records database. RESULTS:
-              The model included 448 788 unique hospitalizations. Net benefit
-              over risk horizons between 3 and 12 months was generally highest
-              for the model that included both NLP and SDOH predictors (area
-              under the receiver operating characteristic curve range,
-              0.747-0.780; area under the precision recall curve relative to the
-              suicide rate range, 3.87-5.75). NLP and SDOH predictors also had
-              the highest predictor class-level SHAP values (proportional SHAP =
-              64.0\% and 49.3\%, respectively), although the single highest
-              positive variable-level SHAP value was for a count of medications
-              classified by the US Food and Drug Administration as increasing
-              suicide risk prescribed the year before hospitalization
-              (proportional SHAP = 15.0\%). CONCLUSIONS AND RELEVANCE: In this
-              study, clinical notes and public records were found to improve ML
-              model prediction of suicide after psychiatric hospitalization. The
-              model had positive net benefit over 3-month to 12-month risk
-              horizons for plausible decision thresholds. Although caution is
-              needed in inferring causality based on predictor importance,
-              several key predictors have potential intervention implications
-              that should be investigated in future studies.",
-  month    =  mar,
-  year     =  2023,
-  url      = "http://dx.doi.org/10.1001/jamapsychiatry.2022.4634",
-  doi      = "10.1001/jamapsychiatry.2022.4634",
-  pmc      = "PMC9857842",
-  pmid     =  36652267,
-  issn     = "2168-622X,2168-6238",
-  language = "en"
+  title     = "Evaluation of a Model to Target High-risk Psychiatric Inpatients
+               for an Intensive Postdischarge Suicide Prevention Intervention",
+  author    = "Kessler, Ronald C and Bauer, Mark S and Bishop, Todd M and
+               Bossarte, Robert M and Castro, Victor M and Demler, Olga V and
+               Gildea, Sarah M and Goulet, Joseph L and King, Andrew J and
+               Kennedy, Chris J and Landes, Sara J and Liu, Howard and Luedtke,
+               Alex and Mair, Patrick and Marx, Brian P and Nock, Matthew K and
+               Petukhova, Maria V and Pigeon, Wilfred R and Sampson, Nancy A and
+               Smoller, Jordan W and Miller, Aletha and Haas, Gretchen and
+               Benware, Jeffrey and Bradley, John and Owen, Richard R and House,
+               Samuel and Urosevic, Snezana and Weinstock, Lauren M",
+  journal   = "JAMA Psychiatry",
+  publisher = "American Medical Association (AMA)",
+  volume    =  80,
+  number    =  3,
+  pages     = "230--240",
+  abstract  = "IMPORTANCE: The months after psychiatric hospital discharge are a
+               time of high risk for suicide. Intensive postdischarge case
+               management, although potentially effective in suicide prevention,
+               is likely to be cost-effective only if targeted at high-risk
+               patients. A previously developed machine learning (ML) model
+               showed that postdischarge suicides can be predicted from
+               electronic health records and geospatial data, but it is unknown
+               if prediction could be improved by adding additional information.
+               OBJECTIVE: To determine whether model prediction could be
+               improved by adding information extracted from clinical notes and
+               public records. DESIGN, SETTING, AND PARTICIPANTS: Models were
+               trained to predict suicides in the 12 months after Veterans
+               Health Administration (VHA) short-term (less than 365 days)
+               psychiatric hospitalizations between the beginning of 2010 and
+               September 1, 2012 (299 050 hospitalizations, with 916
+               hospitalizations followed within 12 months by suicides) and
+               tested in the hospitalizations from September 2, 2012, to
+               December 31, 2013 (149 738 hospitalizations, with 393
+               hospitalizations followed within 12 months by suicides).
+               Validation focused on net benefit across a range of plausible
+               decision thresholds. Predictor importance was assessed with
+               Shapley additive explanations (SHAP) values. Data were analyzed
+               from January to August 2022. MAIN OUTCOMES AND MEASURES: Suicides
+               were defined by the National Death Index. Base model predictors
+               included VHA electronic health records and patient residential
+               data. The expanded predictors came from natural language
+               processing (NLP) of clinical notes and a social determinants of
+               health (SDOH) public records database. RESULTS: The model
+               included 448 788 unique hospitalizations. Net benefit over risk
+               horizons between 3 and 12 months was generally highest for the
+               model that included both NLP and SDOH predictors (area under the
+               receiver operating characteristic curve range, 0.747-0.780; area
+               under the precision recall curve relative to the suicide rate
+               range, 3.87-5.75). NLP and SDOH predictors also had the highest
+               predictor class-level SHAP values (proportional SHAP = 64.0\% and
+               49.3\%, respectively), although the single highest positive
+               variable-level SHAP value was for a count of medications
+               classified by the US Food and Drug Administration as increasing
+               suicide risk prescribed the year before hospitalization
+               (proportional SHAP = 15.0\%). CONCLUSIONS AND RELEVANCE: In this
+               study, clinical notes and public records were found to improve ML
+               model prediction of suicide after psychiatric hospitalization.
+               The model had positive net benefit over 3-month to 12-month risk
+               horizons for plausible decision thresholds. Although caution is
+               needed in inferring causality based on predictor importance,
+               several key predictors have potential intervention implications
+               that should be investigated in future studies.",
+  month     =  mar,
+  year      =  2023,
+  url       = "http://dx.doi.org/10.1001/jamapsychiatry.2022.4634",
+  keywords  = "veterans; suicide; suicide risk assessment; suicide precautions;
+               prognostic study; social determinants of health; machine
+               learning; psychiatric hospital; natural language processing;
+               hospitalization, psychiatric; suicidal behavior; psychiatry",
+  doi       = "10.1001/jamapsychiatry.2022.4634",
+  pmc       = "PMC9857842",
+  pmid      =  36652267,
+  issn      = "2168-622X,2168-6238",
+  language  = "en"
 }
 
 @ARTICLE{Edlow2023-cd,
@@ -5575,84 +5498,6 @@
   pmid     =  38745458,
   issn     = "0002-953X,1535-7228",
   language = "en"
-}
-
-@ARTICLE{Barak-Corren2020-oi,
-  title     = "Validation of an electronic health record-based suicide risk
-               prediction modeling approach across multiple health care systems",
-  author    = "Barak-Corren, M D Yuval and Castro, M S Victor M and Nock, Phd
-               Matthew K and Mandl, M M Kenneth and Madsen, B S Emily M and
-               Seiger, Msc Ashley and Smoller, M D Scd Jordan and Barak-Corren,
-               Castro and {Mandl Madsen Adams Bernstam Klann McCarthy Murphy
-               Nock} and Natter, Ostasiewski Patibandla and Rosenthal, Silva and
-               Lozinski, M S Galina and Adams, M D William G and Joseph
-               Applegate, B S R and Bernstam, M D Elmer V and Klann, Phd Jeffrey
-               G and McCarthy, Phd Ellen P and Murphy, M D Shawn N and Natter, M
-               D Marc and Ostasiewski, B S Brian and Patibandla, M S Nandan and
-               Rosenthal, M D Gary E and Silva, B S George S and Wei, B S Kun
-               and Weber, M D Griffin M and Weiler, Phd Sarah R and Reis, Phd
-               Ben Y",
-  journal   = "JAMA Netw. Open",
-  publisher = "American Medical Association",
-  volume    =  3,
-  number    =  3,
-  pages     = "e201262--e201262",
-  abstract  = "IMPORTANCE Suicide is a leading cause of mortality, with
-               suicide-related deaths increasing in recent years. Automated
-               methods for individualized risk prediction have great potential
-               to address this growing public health threat. To facilitate their
-               adoption, they must first be validated across diverse health care
-               settings. OBJECTIVE To evaluate the generalizability and
-               cross-site performance of a risk prediction method using readily
-               available structured data from electronic health records in
-               predicting incident suicide attempts across multiple,
-               independent, US health care systems. DESIGN, SETTING, AND
-               PARTICIPANTS For this prognostic study, data were extracted from
-               longitudinal electronic health record data comprising
-               International Classification of Diseases, Ninth Revision
-               diagnoses, laboratory test results, procedures codes, and
-               medications for more than 3.7 million patients from 5 independent
-               health care systems participating in the Accessible Research
-               Commons for Health network. Across sites, 6 to 17 years’worth of
-               data were available, up to 2018. Outcomes were defined by
-               International Classification of Diseases, Ninth Revision codes
-               reflecting incident suicide attempts (with positive predictive
-               value >0.70 according to expert clinician medical record review).
-               Models were trained using naive Bayes classifiers in each of the
-               5 systems. Models were cross-validated in independent data sets
-               at each site, and performance metrics were calculated. Data
-               analysis was performed from November 2017 to August 2019. MAIN
-               OUTCOMES AND MEASURES The primary outcome was suicide attempt as
-               defined by a previously validated case definition using
-               International Classification of Diseases, Ninth Revision codes.
-               The accuracy and timeliness of the prediction were measured at
-               each site. RESULTS Across the 5 health care systems, of the 3 714
-               105 patients (2 130 454 female [57.2\%]) included in the
-               analysis, 39 162 cases (1.1\%) were identified. Predictive
-               features varied by site but, as expected, the most common
-               predictors reflected mental health conditions (eg, borderline
-               personality disorder, with odds ratios of 8.1-12.9, and bipolar
-               disorder, with odds ratios of 0.9-9.1) and substance use
-               disorders (eg, drug withdrawal syndrome, with odds ratios of
-               7.0-12.9). Despite variation in geographical location,
-               demographic characteristics, and population health
-               characteristics, model performance was similar across sites, with
-               areas under the curve ranging from 0.71 (95\% CI, 0.70-0.72) to
-               0.76 (95\% CI, 0.75-0.77). Across sites, at a specificity of
-               90\%, the models detected a mean of 38\% of cases a mean of 2.1
-               years in advance. CONCLUSIONS AND RELEVANCE Across 5 diverse
-               health care systems, a computationally efficient approach
-               leveraging the full spectrum of structured electronic health
-               record data was able to detect the risk of suicidal behavior in
-               unselected patients. This approach could facilitate the
-               development of clinical decision support tools that inform risk
-               reduction interventions.",
-  month     =  mar,
-  year      =  2020,
-  url       = "https://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=hC02ZnsAAAAJ:aNch6Af-aFkC",
-  doi       = "10.1001/jamanetworkopen.2020.1262",
-  pmid      =  32211868,
-  issn      = "2574-3805"
 }
 
 @ARTICLE{Swank2024-xy,
